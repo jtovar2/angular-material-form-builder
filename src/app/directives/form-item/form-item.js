@@ -42,7 +42,8 @@
       multipleChoices: '<radio-button-item item="FormItem.item"></radio-button-item>',
       matrix: '<matrix-item item="FormItem.item"></matrix-item>',
       checkboxes: '<checkboxes-item item="FormItem.item"></checkboxes-item>',
-      textarea: '<textarea-item item="FormItem.item"></textarea-item>'
+      textarea: '<textarea-item item="FormItem.item"></textarea-item>',
+      photo: '<photo-item item="FormItem.item"></photo-item>'
     };
   }
 

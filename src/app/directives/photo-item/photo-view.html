@@ -1,12 +1,13 @@
 <md-input-container>
   <input ng-hide="vm.file_uploaded" type="file" file-model="vm.myFile"/>
   {{vm.formItem.value}}
-  <md-button ng-hide="vm.file_uploaded" ng-click="vm.uploadFile()">upload me</md-button>
-  <md-button  ng-show="vm.file_uploaded" ng-click="vm.removeBlob()">remove</md-button>
+
   <input ng-hide="true" ng-model="vm.formItem.value"
          type="text"
          ng-required="vm.formItem.config.required" />
   <div ng-messages="vm.form.$error">
     <div ng-message="required">This field is required</div>
   </div>
+  <md-button ng-hide="vm.file_uploaded" ng-click="vm.uploadFile()">upload me</md-button>
+  <md-button  ng-show="vm.file_uploaded" ng-click="vm.removeBlob()">remove</md-button>
 </md-input-container>

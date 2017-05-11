@@ -66,22 +66,20 @@
         vm.getUploadUrl = function()
         {
 
-        if(vm.field.field_type == 'photo')
+        fileUploadService.getUploadUrl().then(function(data)
         {
-            fileUploadService.getUploadUrl().then(function(data)
-            {
-                vm.upload_url = data;
+		vm.upload_url = data;
                 console.log(data);
-            });
+        
+	});
 
-        }
         }
         vm.getUploadUrl();
   }
 
 
 
-  InputViewCtrl.prototype.init = function () {
+  PhotoViewCtrl.prototype.init = function () {
 
     this.Utils.extend(this.formItem, {
       config: {}

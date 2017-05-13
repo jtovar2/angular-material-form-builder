@@ -1,1 +1,59 @@
-@import url(https://fonts.googleapis.com/icon?family=Material+Icons);.main-view .content .builder,.main-view .content .json,.main-view .content .view{border-right:1px solid #ccc;height:800px;overflow:auto}.builder-icon,form-item .form-item-container .md-button,form-item .option-item .md-button{min-height:36px;min-width:36px;height:36px;width:36px}.builder-icon,form-item .form-item-container .md-button{line-height:0}form-item .option-item{min-height:75px}form-item .option-item .md-button{line-height:0;margin-top:20px}form-item .option-item .md-button.handle:active,form-item .option-item .md-button.handle:hover{cursor:move}form-item .form-item-container{position:relative;padding-top:30px}form-item .form-item-container .form-item-actions{position:absolute;right:20px;top:0}form-view .formItem-title{font-size:18px}form-view .formItem-help-text{font-size:14px;color:#6c6c6c}form-view .matrix-container{overflow:auto}form-view .matrix-container .matrix .matrix-row{border-bottom:1px solid #4caf50}form-view .matrix-container .matrix .matrix-cell{text-align:center;overflow:hidden}form-view .matrix-container .matrix md-radio-button .md-label{margin-left:0;margin-right:0}form-view .matrix-container .matrix .md-switch-thumb,form-view .matrix-container .matrix md-radio-button{margin:15px 0}i.material-icons{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}i.material-icons.medium{font-size:36px}
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+.main-view .content .builder, .main-view .content .view, .main-view .content .json {
+  border-right: 1px solid #CCCCCC;
+  height: 800px;
+  overflow: auto; }
+
+.builder-icon, form-item .option-item .md-button, form-item .form-item-container .md-button {
+  min-height: 36px;
+  min-width: 36px;
+  height: 36px;
+  width: 36px;
+  line-height: 0; }
+
+form-item .option-item {
+  min-height: 75px; }
+  form-item .option-item .md-button {
+    line-height: 0;
+    margin-top: 20px; }
+    form-item .option-item .md-button.handle:active, form-item .option-item .md-button.handle:hover {
+      cursor: move; }
+
+form-item .form-item-container {
+  position: relative;
+  padding-top: 30px; }
+  form-item .form-item-container .form-item-actions {
+    position: absolute;
+    right: 20px;
+    top: 0; }
+
+form-view .formItem-title {
+  font-size: 18px; }
+
+form-view .formItem-help-text {
+  font-size: 14px;
+  color: #6c6c6c; }
+
+form-view .matrix-container {
+  overflow: auto; }
+  form-view .matrix-container .matrix .matrix-row {
+    border-bottom: 1px solid #4caf50; }
+  form-view .matrix-container .matrix .matrix-cell {
+    text-align: center;
+    overflow: hidden; }
+  form-view .matrix-container .matrix md-radio-button .md-label {
+    margin-left: 0;
+    margin-right: 0; }
+  form-view .matrix-container .matrix md-radio-button, form-view .matrix-container .matrix .md-switch-thumb {
+    margin: 15px 0; }
+
+i.material-icons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+  i.material-icons.medium {
+    font-size: 36px; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEscUVBQVk7QUFJWjtFQUlNLGdDQUErQjtFQUMvQixjQUFhO0VBQ2IsZUFBYyxFQUNmOztBQUlMO0VBQ0UsaUJBZGU7RUFlZixnQkFmZTtFQWdCZixhQWhCZTtFQWlCZixZQWpCZTtFQWtCZixlQUFjLEVBQ2Y7O0FBRUQ7RUFFSSxpQkFBZ0IsRUFXakI7RUFiSDtJQU1NLGVBQWM7SUFDZCxpQkFBZ0IsRUFLakI7SUFaTDtNQVVRLGFBQVksRUFDYjs7QUFYUDtFQWdCSSxtQkFBa0I7RUFDbEIsa0JBQWlCLEVBV2xCO0VBNUJIO0lBb0JNLG1CQUFrQjtJQUNsQixZQUFXO0lBQ1gsT0FBTSxFQUNQOztBQVFMO0VBRUksZ0JBQWUsRUFDaEI7O0FBSEg7RUFNSSxnQkFBZTtFQUNmLGVBQWMsRUFDZjs7QUFSSDtFQVlJLGVBQWMsRUF1QmY7RUFuQ0g7SUFnQlEsaUNBQWdDLEVBQ2pDO0VBakJQO0lBb0JRLG1CQUFrQjtJQUNsQixpQkFBZ0IsRUFDakI7RUF0QlA7SUEwQlUsZUFBYztJQUNkLGdCQUFlLEVBQ2hCO0VBNUJUO0lBZ0NRLGVBQWMsRUFDZjs7QUFLUDtFQUNFLG1CQUFrQjtFQUNsQixTQUFRO0VBQ1IsVUFBUztFQUNULHlDQUFnQztVQUFoQyxpQ0FBZ0MsRUFLakM7RUFURDtJQU9JLGdCQUFlLEVBQ2hCIiwiZmlsZSI6ImluZGV4LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIkBpbXBvcnQgdXJsKGh0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vaWNvbj9mYW1pbHk9TWF0ZXJpYWwrSWNvbnMpO1xuXG4kYnV0dG9uLWRpbTogMzZweDtcblxuLm1haW4tdmlldyB7XG4gIC5jb250ZW50IHtcblxuICAgIC5idWlsZGVyLCAudmlldywgLmpzb24ge1xuICAgICAgYm9yZGVyLXJpZ2h0OiAxcHggc29saWQgI0NDQ0NDQztcbiAgICAgIGhlaWdodDogODAwcHg7XG4gICAgICBvdmVyZmxvdzogYXV0bztcbiAgICB9XG4gIH1cbn1cblxuLmJ1aWxkZXItaWNvbiB7XG4gIG1pbi1oZWlnaHQ6ICRidXR0b24tZGltO1xuICBtaW4td2lkdGg6ICRidXR0b24tZGltO1xuICBoZWlnaHQ6ICRidXR0b24tZGltO1xuICB3aWR0aDogJGJ1dHRvbi1kaW07XG4gIGxpbmUtaGVpZ2h0OiAwO1xufVxuXG5mb3JtLWl0ZW0ge1xuICAub3B0aW9uLWl0ZW0ge1xuICAgIG1pbi1oZWlnaHQ6IDc1cHg7XG5cbiAgICAubWQtYnV0dG9uIHtcbiAgICAgIEBleHRlbmQgLmJ1aWxkZXItaWNvbjtcbiAgICAgIGxpbmUtaGVpZ2h0OiAwO1xuICAgICAgbWFyZ2luLXRvcDogMjBweDtcblxuICAgICAgJi5oYW5kbGU6YWN0aXZlLCAmLmhhbmRsZTpob3ZlciB7XG4gICAgICAgIGN1cnNvcjogbW92ZTtcbiAgICAgIH1cbiAgICB9XG4gIH1cblxuICAuZm9ybS1pdGVtLWNvbnRhaW5lciB7XG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgIHBhZGRpbmctdG9wOiAzMHB4O1xuXG4gICAgLmZvcm0taXRlbS1hY3Rpb25zIHtcbiAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgIHJpZ2h0OiAyMHB4O1xuICAgICAgdG9wOiAwO1xuICAgIH1cblxuICAgIC5tZC1idXR0b24ge1xuICAgICAgQGV4dGVuZCAuYnVpbGRlci1pY29uO1xuICAgIH1cbiAgfVxufVxuXG5mb3JtLXZpZXcge1xuICAuZm9ybUl0ZW0tdGl0bGUge1xuICAgIGZvbnQtc2l6ZTogMThweDtcbiAgfVxuXG4gIC5mb3JtSXRlbS1oZWxwLXRleHQge1xuICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICBjb2xvcjogIzZjNmM2YztcbiAgfVxuXG5cbiAgLm1hdHJpeC1jb250YWluZXIge1xuICAgIG92ZXJmbG93OiBhdXRvO1xuXG4gICAgLm1hdHJpeCB7XG4gICAgICAubWF0cml4LXJvdyB7XG4gICAgICAgIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjNGNhZjUwO1xuICAgICAgfVxuXG4gICAgICAubWF0cml4LWNlbGwge1xuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICAgIG92ZXJmbG93OiBoaWRkZW47XG4gICAgICB9XG5cbiAgICAgIG1kLXJhZGlvLWJ1dHRvbiB7XG4gICAgICAgIC5tZC1sYWJlbCB7XG4gICAgICAgICAgbWFyZ2luLWxlZnQ6IDA7XG4gICAgICAgICAgbWFyZ2luLXJpZ2h0OiAwO1xuICAgICAgICB9XG4gICAgICB9XG5cbiAgICAgIG1kLXJhZGlvLWJ1dHRvbiwgLm1kLXN3aXRjaC10aHVtYiB7XG4gICAgICAgIG1hcmdpbjogMTVweCAwO1xuICAgICAgfVxuICAgIH1cbiAgfVxufVxuXG5pLm1hdGVyaWFsLWljb25zIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICB0b3A6IDUwJTtcbiAgbGVmdDogNTAlO1xuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcblxuICAmLm1lZGl1bSB7XG4gICAgZm9udC1zaXplOiAzNnB4O1xuICB9XG59XG4iXX0= */

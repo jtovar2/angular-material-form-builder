@@ -1,7 +1,7 @@
 (function (angular) {
   'use strict';
 
-  angular.module('angularMaterialFormBuilder')
+  angular.module('demoDocFormBuilder')
     .directive('photoView', PhotoView);
 
   /*@ngInject*/
@@ -70,7 +70,7 @@
         {
 		vm.upload_url = data;
                 console.log(data);
-        
+
 	});
 
         }

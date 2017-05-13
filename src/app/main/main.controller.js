@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('angularMaterialFormBuilder')
+    .module('demoDocFormBuilder')
     .controller('MainController', MainController);
 
   var vm;

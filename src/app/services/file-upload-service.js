@@ -1,7 +1,7 @@
 
 (function(angular) {
 'use strict';
-angular.module('angularMaterialFormBuilder')
+angular.module('demoDocFormBuilder')
 .factory('fileUploadService', function ($q, $http) {
     var services = {
         uploadFileToUrl: uploadFileToUrl,

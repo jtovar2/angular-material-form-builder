@@ -3,7 +3,7 @@
 
   describe('controllers', function () {
 
-    beforeEach(module('angularMaterialFormBuilder'));
+    beforeEach(module('demoDocFormBuilder'));
 
     it('should check true to be true', inject(function ($controller) {
       expect(true).toBeTruthy();

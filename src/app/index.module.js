@@ -2,6 +2,6 @@
   'use strict';
 
   angular
-    .module('angularMaterialFormBuilder', ['ngMaterial', 'angular-sortable-view', 'ngMessages']);
+    .module('demoDocFormBuilder', ['ngMaterial', 'angular-sortable-view', 'ngMessages']);
 
 })(angular);

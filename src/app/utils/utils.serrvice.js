@@ -1,7 +1,7 @@
 (function (angular) {
   'use strict';
 
-  angular.module('angularMaterialFormBuilder')
+  angular.module('demoDocFormBuilder')
     .service('Utils', Utils);
 
   function Utils() {}

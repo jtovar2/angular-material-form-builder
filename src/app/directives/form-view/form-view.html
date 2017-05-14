@@ -1,3 +1,11 @@
+<md-whiteframe class="md-whiteframe-1dp" layout='column'>
+<md-toolbar>
+<div class="md-toolbar-tools">
+<h3 class="md-display-3">{{FormView.form.title}}</h3>
+</div>
+</md-toolbar>
+<p class=".md-body-1">{{FormView.form.description}}</p>
+<hr>
 <div class="formItem" ng-repeat="formItem in FormView.form.items track by $index" ng-switch="formItem.type" layout="column">
   <ng-form name="formItemForm">
     <div>
@@ -13,3 +21,4 @@
     </div>
   </ng-form>
 </div>
+<md-whiteframe>

@@ -10,7 +10,9 @@
   function MainController() {
     vm = this;
     vm.form = {
-      items: []
+      items: [],
+      title: "asdfasdf",
+      description: "asdfasdf"
     };
   }
 
